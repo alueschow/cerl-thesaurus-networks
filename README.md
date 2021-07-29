@@ -28,11 +28,10 @@ More documentation can be found inside the notebooks themselves.
   - proj-bin
   - libgeos-dev
 
-### Prepare the repository for use with Binder
-* Export poetry's dependencies to a `requirements.txt` file by calling `poetry export --without-hashes -f requirements.txt --output requirements.txt `.
-* The content of this `requirements.txt` file has to go into the `environment.yml` file in the `binder` subdirectory. In the same file, other Binder configuration such as the python version used is specified.
-* The `apt.txt` file in the `binder` subdirectory contains packages that need to be available in the Binder environment (see above under __Install dependencies_).
-
-
 ### Jupyter Notebook
 Use `poetry run jupyter notebook` inside the root folder to run a local notebook server.
+
+## Using this repository with Binder
+* Export poetry's dependencies to a `requirements.txt` file by calling `poetry export --without-hashes -f requirements.txt --output requirements.txt `.
+* The content of this `requirements.txt` file has to go into the `environment.yml` file in the `binder` subdirectory. In the same file, other Binder configuration such as the python version used is specified.
+* The `apt.txt` file in the `binder` subdirectory contains packages that need to be available in the Binder environment (see above under __Install dependencies__).
