@@ -1,0 +1,1304 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="Mühlhausen" />
+    <node id="Königsberg" />
+    <node id="Danzig" />
+    <node id="Northeim" />
+    <node id="Erfurt" />
+    <node id="London" />
+    <node id="Dieppe" />
+    <node id="Amsterdam" />
+    <node id="Berlin" />
+    <node id="Charenton-le-Pont (Charenton)" />
+    <node id="Plan" />
+    <node id="Thumsenreuth" />
+    <node id="Arnstadt" />
+    <node id="Naumburg" />
+    <node id="Jena" />
+    <node id="Feucht" />
+    <node id="Röthenbach" />
+    <node id="Altdorf" />
+    <node id="Prag" />
+    <node id="Olmütz" />
+    <node id="Garsten" />
+    <node id="Salzburg" />
+    <node id="Zerbst/Anhalt" />
+    <node id="Dessau" />
+    <node id="Eschershausen" />
+    <node id="Helmstedt" />
+    <node id="Bad Harzburg" />
+    <node id="Riddagshausen" />
+    <node id="Kahla" />
+    <node id="Orlamünde" />
+    <node id="Zeutsch" />
+    <node id="Aue am Berg" />
+    <node id="Bordeaux" />
+    <node id="Auch" />
+    <node id="La Réole" />
+    <node id="Rom" />
+    <node id="Neapel" />
+    <node id="Florenz" />
+    <node id="Brest" />
+    <node id="Vannes" />
+    <node id="Rouen" />
+    <node id="Quimper" />
+    <node id="Passau" />
+    <node id="Kiew" />
+    <node id="Pskow" />
+    <node id="Soissons" />
+    <node id="Noyon" />
+    <node id="Verdun" />
+    <node id="Braunschweig" />
+    <node id="Lemgo" />
+    <node id="Wremen" />
+    <node id="Mulsum" />
+    <node id="Lüneburg" />
+    <node id="Quedlinburg" />
+    <node id="Leiden" />
+    <node id="Wittenberg" />
+    <node id="Halberstadt" />
+    <node id="Halle, Saale" />
+    <node id="Annaberg" />
+    <node id="Köln" />
+    <node id="Aachen" />
+    <node id="Roma" />
+    <node id="Paris" />
+    <node id="Bruxelles" />
+    <node id="Padua" />
+    <node id="Weingarten" />
+    <node id="S. l." />
+    <node id="Arezzo" />
+    <node id="Koblenz" />
+    <node id="Hildesheim" />
+    <node id="Leipzig" />
+    <node id="Rennes" />
+    <node id="Radvan" />
+    <node id="Bries" />
+    <node id="Thorn" />
+    <node id="Lindau" />
+    <node id="Graz" />
+    <node id="Lübeck" />
+    <node id="Alt-Brandenburg" />
+    <node id="Neustettin" />
+    <node id="Schivelbein" />
+    <node id="Pyritz" />
+    <node id="Périgord" />
+    <node id="Périgueux" />
+    <node id="Kreischau" />
+    <node id="Alzey" />
+    <node id="Offenbach am Main" />
+    <node id="Dobitschen" />
+    <node id="Halle" />
+    <node id="Trnava (Tyrnau ; Nagyszombat)" />
+    <node id="Košice (Kaschau ; Kassa)" />
+    <node id="Lille" />
+    <node id="Tournai" />
+    <node id="Blankenburg" />
+    <node id="Wolfenbüttel" />
+    <node id="Magdeburg" />
+    <node id="Kütten" />
+    <node id="Drobitz" />
+    <node id="Brieg" />
+    <node id="Riga" />
+    <node id="Eisenach" />
+    <node id="Großrudestedt" />
+    <node id="Offenhausen" />
+    <node id="Lichtenau" />
+    <node id="Schleswig" />
+    <node id="Kiel" />
+    <node id="Bad Mergentheim" />
+    <node id="Schöntal" />
+    <node id="Seesen-Bornhausen" />
+    <node id="Eimsen" />
+    <node id="Erfurt-Kühnhausen" />
+    <node id="Schellroda" />
+    <node id="Gothland" />
+    <node id="Rostock" />
+    <node id="Narni" />
+    <node id="Calais" />
+    <node id="Weinbourg" />
+    <node id="Lützelstein" />
+    <node id="Straßburg" />
+    <node id="Salzgitter-Ohlendorf" />
+    <node id="Dorstadt" />
+    <node id="Heiningen" />
+    <node id="Münster" />
+    <node id="Paderborn (Neuhaus)" />
+    <node id="Warendorf" />
+    <node id="Neisse" />
+    <node id="Breslau" />
+    <node id="Glatz" />
+    <node id="Posen" />
+    <node id="Krakau" />
+    <node id="Kleinrudestedt" />
+    <node id="Schwansee" />
+    <node id="Bombeck bei Salzwedel" />
+    <node id="Bad Langensalza" />
+    <node id="Gotha" />
+    <node id="Zwickau" />
+    <node id="Ronneburg" />
+    <node id="Harburg, Elbe" />
+    <node id="Hamburg" />
+    <node id="Vehra" />
+    <node id="Eilenburg" />
+    <node id="Straußfurt" />
+    <node id="Sömmerda-Tunzenhausen" />
+    <node id="Bitterfeld" />
+    <node id="Delitzsch" />
+    <node id="Brighton" />
+    <node id="Lewes" />
+    <node id="Altengönna" />
+    <node id="Lobeda" />
+    <node id="Temnitztal" />
+    <node id="Kremmen" />
+    <node id="Luxembourg" />
+    <node id="Metz" />
+    <node id="Oberaußem" />
+    <node id="Frechen" />
+    <node id="Rotterdam" />
+    <node id="Den Haag" />
+    <node id="Stolzenau" />
+    <node id="Sainte-Menehould" />
+    <node id="Flensburg" />
+    <node id="Alfter" />
+    <node id="Heimerzheim" />
+    <node id="Eichstedt" />
+    <node id="Ragetz" />
+    <node id="Trévoux" />
+    <node id="Lyon" />
+    <node id="Bühlingen" />
+    <node id="Furtwangen im Schwarzwald" />
+    <node id="Mirow" />
+    <node id="Stade" />
+    <node id="Stettin" />
+    <node id="Erlangen" />
+    <node id="Belley" />
+    <node id="Nancy" />
+    <node id="Antwerpen" />
+    <node id="Nordhausen" />
+    <node id="Clausthal" />
+    <node id="Düsseldorf" />
+    <node id="Mannheim" />
+    <node id="Brioude" />
+    <node id="Le Puy-en-Velay (Le Puy)" />
+    <node id="Wetzlar" />
+    <node id="Gießen" />
+    <node id="Ingolstadt" />
+    <node id="Poschiavo" />
+    <node id="Heidelberg" />
+    <node id="Hanau" />
+    <node id="Wust-Fischbeck- Fischbeck" />
+    <node id="Schönhausen" />
+    <node id="Flatow" />
+    <node id="Züllichau" />
+    <node id="Freienwalde/Oder" />
+    <node id="Schwerin" />
+    <node id="Gustow" />
+    <node id="Ratzeburg" />
+    <node id="Zarrentin" />
+    <node id="Greifswald" />
+    <node id="Weißenfels" />
+    <node id="Merseburg" />
+    <node id="Zittau" />
+    <node id="Bückeburg" />
+    <node id="Meißen" />
+    <node id="Frankfurt" />
+    <node id="Liegnitz" />
+    <node id="Fronderode" />
+    <node id="Rügenwalde" />
+    <node id="Köslin" />
+    <node id="Napoli" />
+    <node id="Pozzuoli" />
+    <node id="Schneeberg" />
+    <node id="Ulm" />
+    <node id="Nürnberg" />
+    <node id="Augsburg" />
+    <node id="Buxtehude" />
+    <node id="Sumt" />
+    <node id="Schönfließ" />
+    <node id="Küstrin" />
+    <node id="Saumur" />
+    <node id="Perleberg" />
+    <node id="Lauchstedt" />
+    <node id="Ilmenau" />
+    <node id="Sulza" />
+    <node id="Münchsteinach" />
+    <node id="Frankfurt-Oberrad" />
+    <node id="Frankfurt am Main" />
+    <node id="Wernigerode" />
+    <node id="Rinteln" />
+    <node id="Dresden" />
+    <node id="Tübingen" />
+    <node id="Mainz" />
+    <node id="Markbreit" />
+    <node id="Würzburg" />
+    <node id="Tambach" />
+    <node id="Aspach" />
+    <node id="Condom" />
+    <node id="Agen" />
+    <node id="Grossen Schwarzlosen" />
+    <node id="Niedergörne" />
+    <node id="Uppsala" />
+    <node id="Dorpat" />
+    <node id="Godramstein" />
+    <node id="Klingenmünster" />
+    <node id="Großrückerswalde" />
+    <node id="Olbernhau" />
+    <node id="Herford" />
+    <node id="Bielefeld" />
+    <node id="Zichtau" />
+    <node id="Wittenberge" />
+    <node id="Frankfurt-Booßen" />
+    <node id="Gdańsk (Danzig)" />
+    <node id="Lülsdorf" />
+    <node id="Oberkassel" />
+    <node id="Duisburg" />
+    <node id="Schönebeck" />
+    <node id="Calbe" />
+    <node id="Friedberg" />
+    <node id="Glasgow" />
+    <node id="Distrikt Angus" />
+    <node id="Itzehoe" />
+    <node id="Hammelburg" />
+    <node id="Plön" />
+    <node id="Càller" />
+    <node id="Barcelona" />
+    <node id="Colmar" />
+    <node id="Sarlat-la-Canéda (Sarlat)" />
+    <node id="Schleusingen" />
+    <node id="Torgau" />
+    <node id="Coburg" />
+    <node id="Harzgerode" />
+    <node id="Jüterbog" />
+    <node id="Marburg" />
+    <node id="Parma" />
+    <node id="Mailand" />
+    <node id="Goslar" />
+    <node id="Göttingen" />
+    <node id="Hirschberg im Riesengebirge" />
+    <node id="Wiehe" />
+    <node id="Mücheln" />
+    <node id="Altdorf b. Nürnberg" />
+    <node id="Bad Köstritz" />
+    <node id="Eisenberg" />
+    <node id="Lombardei" />
+    <node id="Chalon-sur-Saône" />
+    <node id="Dorfhain" />
+    <node id="Klingenberg" />
+    <node id="Lommatzsch" />
+    <node id="Grimmen" />
+    <node id="Stralsund" />
+    <node id="Groningen" />
+    <node id="Utrecht" />
+    <node id="Saint-Pierre-de-Chartreuse (La Correrie)" />
+    <node id="Grenoble" />
+    <node id="Ueckermünde" />
+    <node id="Bad Salzungen" />
+    <node id="Worms" />
+    <node id="Marienburg" />
+    <node id="Lisieux" />
+    <node id="Bayreuth" />
+    <node id="Pirna" />
+    <node id="Crossen a. d. Elster" />
+    <node id="Aschersleben" />
+    <node id="Meiningen" />
+    <node id="Le Petit-Quevilly (Quevilly)" />
+    <node id="Allendorf" />
+    <node id="Colberg" />
+    <node id="Wertheim-Bronnbach" />
+    <node id="Schwäbisch Hall" />
+    <node id="Glückstadt" />
+    <edge source="Mühlhausen" target="Königsberg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Mühlhausen" target="Danzig">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Königsberg" target="Thorn">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Königsberg" target="Olmütz">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Königsberg" target="Schleswig">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Königsberg" target="Kiel">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Königsberg" target="Altdorf">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Königsberg" target="Brieg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Königsberg" target="Leipzig">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Königsberg" target="Danzig">
+      <data key="d0">2.0</data>
+    </edge>
+    <edge source="Königsberg" target="Marienburg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Danzig" target="Zerbst/Anhalt">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Danzig" target="Delitzsch">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Danzig" target="Rostock">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Danzig" target="Marienburg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Northeim" target="Erfurt">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Erfurt" target="Arnstadt">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Erfurt" target="Eisenach">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Erfurt" target="Fronderode">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Erfurt" target="Wernigerode">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Erfurt" target="Wittenberg">
+      <data key="d0">2.0</data>
+    </edge>
+    <edge source="Erfurt" target="Großrudestedt">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Erfurt" target="Jena">
+      <data key="d0">2.0</data>
+    </edge>
+    <edge source="Erfurt" target="Magdeburg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Erfurt" target="Schleusingen">
+      <data key="d0">2.0</data>
+    </edge>
+    <edge source="Erfurt" target="Leipzig">
+      <data key="d0">2.0</data>
+    </edge>
+    <edge source="Erfurt" target="Torgau">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Erfurt" target="Coburg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Erfurt" target="Harzgerode">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Erfurt" target="Duisburg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Erfurt" target="Jüterbog">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Erfurt" target="Marburg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="London" target="Dieppe">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="London" target="Amsterdam">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="London" target="Berlin">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="London" target="Charenton-le-Pont (Charenton)">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Amsterdam" target="Köln">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Amsterdam" target="Roma">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Amsterdam" target="Paris">
+      <data key="d0">3.0</data>
+    </edge>
+    <edge source="Amsterdam" target="Saumur">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Amsterdam" target="Leiden">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Amsterdam" target="Gdańsk (Danzig)">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Amsterdam" target="Antwerpen">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Amsterdam" target="S. l.">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Amsterdam" target="Berlin">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Berlin" target="Dresden">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Berlin" target="Augsburg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Plan" target="Thumsenreuth">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Arnstadt" target="Naumburg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Arnstadt" target="Jena">
+      <data key="d0">2.0</data>
+    </edge>
+    <edge source="Naumburg" target="Jena">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Jena" target="Stolzenau">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Jena" target="Schneeberg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Jena" target="Ulm">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Jena" target="Wolfenbüttel">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Jena" target="Wittenberg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Jena" target="Gotha">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Jena" target="Bad Salzungen">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Jena" target="Worms">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Feucht" target="Röthenbach">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Feucht" target="Altdorf">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Röthenbach" target="Altdorf">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Altdorf" target="Erlangen">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Altdorf" target="Münchsteinach">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Prag" target="Olmütz">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Olmütz" target="Brieg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Garsten" target="Salzburg">
+      <data key="d0">2.0</data>
+    </edge>
+    <edge source="Salzburg" target="Passau">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Salzburg" target="Neapel">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Zerbst/Anhalt" target="Dessau">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Eschershausen" target="Helmstedt">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Eschershausen" target="Bad Harzburg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Eschershausen" target="Riddagshausen">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Helmstedt" target="Bad Harzburg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Helmstedt" target="Blankenburg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Helmstedt" target="Wolfenbüttel">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Helmstedt" target="Riddagshausen">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Helmstedt" target="Halberstadt">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Helmstedt" target="Magdeburg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Helmstedt" target="Leipzig">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Bad Harzburg" target="Riddagshausen">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Kahla" target="Orlamünde">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Kahla" target="Zeutsch">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Kahla" target="Aue am Berg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Orlamünde" target="Zeutsch">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Orlamünde" target="Aue am Berg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Zeutsch" target="Aue am Berg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Bordeaux" target="Auch">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Bordeaux" target="La Réole">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Rom" target="Neapel">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Rom" target="Florenz">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Neapel" target="Passau">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Florenz" target="Arezzo">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Brest" target="Vannes">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Brest" target="Rouen">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Brest" target="Quimper">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Rouen" target="Lisieux">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Rouen" target="Le Petit-Quevilly (Quevilly)">
+      <data key="d0">2.0</data>
+    </edge>
+    <edge source="Rouen" target="Quimper">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Kiew" target="Pskow">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Soissons" target="Noyon">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Soissons" target="Verdun">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Noyon" target="Verdun">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Verdun" target="Sainte-Menehould">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Braunschweig" target="Lemgo">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Wremen" target="Mulsum">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Wremen" target="Lüneburg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Mulsum" target="Lüneburg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Lüneburg" target="Itzehoe">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Lüneburg" target="Gotha">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Quedlinburg" target="Leiden">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Quedlinburg" target="Wittenberg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Quedlinburg" target="Halberstadt">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Leiden" target="Duisburg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Wittenberg" target="Radvan">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Wittenberg" target="Kreischau">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Wittenberg" target="Freienwalde/Oder">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Wittenberg" target="Halle">
+      <data key="d0">2.0</data>
+    </edge>
+    <edge source="Wittenberg" target="Bries">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Wittenberg" target="Rügenwalde">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Wittenberg" target="Schneeberg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Wittenberg" target="Altdorf b. Nürnberg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Wittenberg" target="Leipzig">
+      <data key="d0">3.0</data>
+    </edge>
+    <edge source="Wittenberg" target="Torgau">
+      <data key="d0">4.0</data>
+    </edge>
+    <edge source="Wittenberg" target="Straßburg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Wittenberg" target="Frankfurt">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Wittenberg" target="Jüterbog">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Wittenberg" target="Köslin">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Halberstadt" target="Schönebeck">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Halberstadt" target="Calbe">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Halle, Saale" target="Annaberg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Köln" target="Aachen">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Köln" target="Roma">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Köln" target="Paris">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Köln" target="Bruxelles">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Köln" target="Padua">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Köln" target="Weingarten">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Köln" target="S. l.">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Roma" target="Paris">
+      <data key="d0">2.0</data>
+    </edge>
+    <edge source="Roma" target="Narni">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Roma" target="Calais">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Roma" target="S. l.">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Paris" target="Rennes">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Paris" target="Belley">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Paris" target="Calais">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Paris" target="Lyon">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Paris" target="Nancy">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Paris" target="Antwerpen">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Paris" target="S. l.">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Koblenz" target="Hildesheim">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Koblenz" target="Leipzig">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Hildesheim" target="Leipzig">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Leipzig" target="Kreischau">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Leipzig" target="Riga">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Leipzig" target="Halle">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Leipzig" target="Liegnitz">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Leipzig" target="Wernigerode">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Leipzig" target="Dresden">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Leipzig" target="Frankfurt-Booßen">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Leipzig" target="Breslau">
+      <data key="d0">2.0</data>
+    </edge>
+    <edge source="Leipzig" target="Magdeburg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Leipzig" target="Torgau">
+      <data key="d0">2.0</data>
+    </edge>
+    <edge source="Leipzig" target="Pirna">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Leipzig" target="Crossen a. d. Elster">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Leipzig" target="Aschersleben">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Radvan" target="Bries">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Lindau" target="Graz">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Lübeck" target="Alt-Brandenburg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Neustettin" target="Schivelbein">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Neustettin" target="Pyritz">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Schivelbein" target="Pyritz">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Périgord" target="Périgueux">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Alzey" target="Offenbach am Main">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Dobitschen" target="Halle">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Halle" target="Rostock">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Halle" target="Weißenfels">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Halle" target="Merseburg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Halle" target="Zittau">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Halle" target="Bückeburg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Halle" target="Meißen">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Halle" target="Frankfurt">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Halle" target="Greifswald">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Trnava (Tyrnau ; Nagyszombat)" target="Košice (Kaschau ; Kassa)">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Lille" target="Tournai">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Wolfenbüttel" target="Plön">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Magdeburg" target="Wernigerode">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Kütten" target="Drobitz">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Eisenach" target="Großrudestedt">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Offenhausen" target="Lichtenau">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Schleswig" target="Kiel">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Kiel" target="Flensburg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Bad Mergentheim" target="Schöntal">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Seesen-Bornhausen" target="Eimsen">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Erfurt-Kühnhausen" target="Schellroda">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Gothland" target="Rostock">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Rostock" target="Bombeck bei Salzwedel">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Rostock" target="Schwerin">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Rostock" target="Gießen">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Rostock" target="Gustow">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Rostock" target="Ratzeburg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Rostock" target="Zarrentin">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Rostock" target="Greifswald">
+      <data key="d0">2.0</data>
+    </edge>
+    <edge source="Weinbourg" target="Lützelstein">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Weinbourg" target="Straßburg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Lützelstein" target="Straßburg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Straßburg" target="Frankfurt-Oberrad">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Straßburg" target="Colmar">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Straßburg" target="Altdorf b. Nürnberg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Straßburg" target="Frankfurt am Main">
+      <data key="d0">2.0</data>
+    </edge>
+    <edge source="Straßburg" target="Allendorf">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Salzgitter-Ohlendorf" target="Dorstadt">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Salzgitter-Ohlendorf" target="Heiningen">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Dorstadt" target="Heiningen">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Münster" target="Paderborn (Neuhaus)">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Münster" target="Warendorf">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Paderborn (Neuhaus)" target="Warendorf">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Neisse" target="Breslau">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Neisse" target="Glatz">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Neisse" target="Posen">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Neisse" target="Krakau">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Breslau" target="Liegnitz">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Breslau" target="Glatz">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Breslau" target="Hirschberg im Riesengebirge">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Breslau" target="Posen">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Breslau" target="Krakau">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Glatz" target="Posen">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Glatz" target="Krakau">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Posen" target="Krakau">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Kleinrudestedt" target="Schwansee">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Bad Langensalza" target="Gotha">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Zwickau" target="Ronneburg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Harburg, Elbe" target="Hamburg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Hamburg" target="Nordhausen">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Hamburg" target="Buxtehude">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Hamburg" target="Clausthal">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Vehra" target="Eilenburg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Vehra" target="Straußfurt">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Vehra" target="Sömmerda-Tunzenhausen">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Eilenburg" target="Straußfurt">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Eilenburg" target="Sömmerda-Tunzenhausen">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Straußfurt" target="Sömmerda-Tunzenhausen">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Bitterfeld" target="Delitzsch">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Brighton" target="Lewes">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Altengönna" target="Lobeda">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Temnitztal" target="Kremmen">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Luxembourg" target="Metz">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Oberaußem" target="Frechen">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Frechen" target="Lülsdorf">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Frechen" target="Oberkassel">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Rotterdam" target="Den Haag">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Alfter" target="Heimerzheim">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Eichstedt" target="Ragetz">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Trévoux" target="Lyon">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Lyon" target="Chalon-sur-Saône">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Bühlingen" target="Furtwangen im Schwarzwald">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Mirow" target="Stade">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Mirow" target="Stettin">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Stade" target="Stettin">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Stettin" target="Ueckermünde">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Nordhausen" target="Clausthal">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Düsseldorf" target="Mannheim">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Brioude" target="Le Puy-en-Velay (Le Puy)">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Wetzlar" target="Gießen">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Ingolstadt" target="Poschiavo">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Heidelberg" target="Hanau">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Wust-Fischbeck- Fischbeck" target="Schönhausen">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Flatow" target="Züllichau">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Schwerin" target="Zarrentin">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Gustow" target="Greifswald">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Weißenfels" target="Merseburg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Weißenfels" target="Zittau">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Merseburg" target="Zittau">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Zittau" target="Nürnberg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Zittau" target="Frankfurt am Main">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Frankfurt" target="Küstrin">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Frankfurt" target="Colberg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Rügenwalde" target="Köslin">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Napoli" target="Pozzuoli">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Ulm" target="Nürnberg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Ulm" target="Augsburg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Nürnberg" target="Frankfurt am Main">
+      <data key="d0">2.0</data>
+    </edge>
+    <edge source="Augsburg" target="Friedberg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Sumt" target="Schönfließ">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Perleberg" target="Lauchstedt">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Ilmenau" target="Sulza">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Frankfurt-Oberrad" target="Frankfurt am Main">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Frankfurt am Main" target="Mainz">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Wernigerode" target="Rinteln">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Tübingen" target="Mainz">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Tübingen" target="Markbreit">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Tübingen" target="Würzburg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Mainz" target="Hammelburg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Mainz" target="Würzburg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Markbreit" target="Würzburg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Würzburg" target="Hammelburg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Tambach" target="Aspach">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Condom" target="Agen">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Agen" target="Sarlat-la-Canéda (Sarlat)">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Grossen Schwarzlosen" target="Niedergörne">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Uppsala" target="Dorpat">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Godramstein" target="Klingenmünster">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Godramstein" target="Großrückerswalde">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Godramstein" target="Olbernhau">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Klingenmünster" target="Großrückerswalde">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Klingenmünster" target="Olbernhau">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Großrückerswalde" target="Olbernhau">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Herford" target="Bielefeld">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Zichtau" target="Wittenberge">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Lülsdorf" target="Oberkassel">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Duisburg" target="Marburg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Schönebeck" target="Calbe">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Glasgow" target="Distrikt Angus">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Càller" target="Barcelona">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Schleusingen" target="Harzgerode">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Schleusingen" target="Bayreuth">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Torgau" target="Jüterbog">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Parma" target="Mailand">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Mailand" target="Lombardei">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Goslar" target="Göttingen">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Wiehe" target="Mücheln">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Bad Köstritz" target="Eisenberg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Dorfhain" target="Klingenberg">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Dorfhain" target="Lommatzsch">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Klingenberg" target="Lommatzsch">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Grimmen" target="Stralsund">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Groningen" target="Utrecht">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Utrecht" target="Glückstadt">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Saint-Pierre-de-Chartreuse (La Correrie)" target="Grenoble">
+      <data key="d0">2.0</data>
+    </edge>
+    <edge source="Bad Salzungen" target="Meiningen">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Wertheim-Bronnbach" target="Schwäbisch Hall">
+      <data key="d0">1.0</data>
+    </edge>
+  </graph>
+</graphml>
