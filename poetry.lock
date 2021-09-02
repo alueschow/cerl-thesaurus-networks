@@ -51,20 +51,34 @@ description = "A package for manipulating, converting and analysing bibliographi
 name = "bibliometa"
 optional = false
 python-versions = ">=3.8,<3.10"
-version = "0.1.2"
+version = "0.1.3"
 
 [package.dependencies]
-cartopy = ">=0.19.0,<0.20.0"
-cython = ">=0.29.24,<0.30.0"
-geopandas = ">=0.9.0,<0.10.0"
 loguru = ">=0.5.3,<0.6.0"
 matplotlib = ">=3.4.2,<4.0.0"
 networkx = ">=2.6.1,<3.0.0"
 numpy = ">=1.21.1,<2.0.0"
 pandas = ">=1.3.0,<2.0.0"
 scipy = ">=1.7.0,<2.0.0"
-shapely = ">=1.7.1,<2.0.0"
 tqdm = ">=4.61.2,<5.0.0"
+
+[[package]]
+category = "main"
+description = "An extension package for Bibliometa that provides visualization functions"
+name = "bibliometa-vis"
+optional = false
+python-versions = ">=3.8,<3.10"
+version = "0.1.0"
+
+[package.dependencies]
+bibliometa = ">=0.1.3,<0.2.0"
+cartopy = ">=0.19.0,<0.20.0"
+cython = ">=0.29.24,<0.30.0"
+geopandas = ">=0.9.0,<0.10.0"
+loguru = ">=0.5.3,<0.6.0"
+matplotlib = ">=3.4.3,<4.0.0"
+networkx = ">=2.6.2,<3.0.0"
+shapely = ">=1.7.1,<2.0.0"
 
 [[package]]
 category = "main"
@@ -1076,7 +1090,7 @@ version = "1.0.3"
 dev = ["pytest (>=4.6.2)", "black (>=19.3b0)"]
 
 [metadata]
-content-hash = "c05022dfb47a58c064139de5f766b718d9fc469a24e24d4f3ddf80cc8e7ac5a4"
+content-hash = "ec6975db206509e4f7a4b1712889af1a2c4e6badb00ca1ffabc7f576a8c2a794"
 lock-version = "1.0"
 python-versions = ">=3.8, <3.10"
 
@@ -1107,8 +1121,12 @@ backcall = [
     {file = "backcall-0.2.0.tar.gz", hash = "sha256:5cbdbf27be5e7cfadb448baf0aa95508f91f2bbc6c6437cd9cd06e2a4c215e1e"},
 ]
 bibliometa = [
-    {file = "bibliometa-0.1.2-py3-none-any.whl", hash = "sha256:52dce8d21d8f21cd2dbb963345a700c8dec6209653b4a15b9b82a5826f6deabd"},
-    {file = "bibliometa-0.1.2.tar.gz", hash = "sha256:3679c658f521479c4dfeecff838feb8f2cb72ffb39837d071060fc11f93c8922"},
+    {file = "bibliometa-0.1.3-py3-none-any.whl", hash = "sha256:baa725c2ad8c019625f14fbbcd14b05a6854d67d7950e9f051e5ace8ebe72ac7"},
+    {file = "bibliometa-0.1.3.tar.gz", hash = "sha256:dd648ad475b062ee3fab6e72dacf7eaf16ec4cf72c09bcad5c7a84dfa234c936"},
+]
+bibliometa-vis = [
+    {file = "bibliometa-vis-0.1.0.tar.gz", hash = "sha256:ee805d71aff5d554c6b1b62accbd9b4c73020c7708f1c20556748fe52633a812"},
+    {file = "bibliometa_vis-0.1.0-py3-none-any.whl", hash = "sha256:9b8cf9e4480211a906b759dc12f4207a4568b5257c36edbb8040df708d198120"},
 ]
 bleach = [
     {file = "bleach-4.1.0-py2.py3-none-any.whl", hash = "sha256:4d2651ab93271d1129ac9cbc679f524565cc8a1b791909c4a51eac4446a15994"},
