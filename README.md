@@ -22,7 +22,7 @@ More documentation can be found inside the notebooks themselves.
 * Install [Poetry](https://python-poetry.org/)
 * Run `poetry shell` inside the root folder to activate a virtual environment.
 * Run `poetry install` to install all necessary dependencies.
-+ **Note**: You may need to install the following packages on your machine in advance (e.g. via `apt-get`) to be able to use Bibliometa:
++ **Note**: You may need to install the following packages on your machine in advance (e.g. via `apt-get`) to be able to use Bibliometa-Vis:
   - libproj-dev
   - proj-data
   - proj-bin
