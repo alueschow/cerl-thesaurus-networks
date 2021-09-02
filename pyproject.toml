@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "cerl-thesaurus-networks"
-version = "0.1.0"
+version = "0.1.1"
 description = "Tutorials and network analysis using data from the CERL thesaurus"
 authors = ["Andreas Lüschow <lueschow@sub.uni-goettingen.de>"]
 license = "MIT License"
@@ -15,7 +15,7 @@ notebook = "^6.4.0"
 pandas = "^1.3.0"
 ipython = "^7.25.0"
 ipykernel = "^6.0.1"
-bibliometa = "^0.1.1"
+bibliometa = "^0.1.2"
 
 [tool.poetry.dev-dependencies]
 
