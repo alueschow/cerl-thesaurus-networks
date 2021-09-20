@@ -95,6 +95,17 @@ webencodings = "*"
 
 [[package]]
 category = "main"
+description = "Generate complex HTML+JS pages with Python"
+name = "branca"
+optional = false
+python-versions = ">=3.5"
+version = "0.4.2"
+
+[package.dependencies]
+jinja2 = "*"
+
+[[package]]
+category = "main"
 description = "A cartographic python library with Matplotlib support for visualisation"
 name = "cartopy"
 optional = false
@@ -114,6 +125,17 @@ tests = ["flufl.lock", "pytest (>=3.0.0)"]
 
 [[package]]
 category = "main"
+description = "Library for querying CERL infrastructure"
+name = "cerl"
+optional = false
+python-versions = ">=3.8.5"
+version = "0.0.5"
+
+[package.dependencies]
+requests = "*"
+
+[[package]]
+category = "main"
 description = "Python package for providing Mozilla's CA Bundle."
 name = "certifi"
 optional = false
@@ -130,6 +152,18 @@ version = "1.14.6"
 
 [package.dependencies]
 pycparser = "*"
+
+[[package]]
+category = "main"
+description = "The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet."
+marker = "python_version >= \"3\""
+name = "charset-normalizer"
+optional = false
+python-versions = ">=3.5.0"
+version = "2.0.6"
+
+[package.extras]
+unicode_backport = ["unicodedata2"]
 
 [[package]]
 category = "main"
@@ -256,6 +290,23 @@ test = ["pytest (>=3)", "pytest-cov", "boto3 (>=1.2.4)", "mock"]
 
 [[package]]
 category = "main"
+description = "Make beautiful maps with Leaflet.js & Python"
+name = "folium"
+optional = false
+python-versions = ">=3.5"
+version = "0.12.1"
+
+[package.dependencies]
+branca = ">=0.3.0"
+jinja2 = ">=2.9"
+numpy = "*"
+requests = "*"
+
+[package.extras]
+testing = ["pytest"]
+
+[[package]]
+category = "main"
 description = "Geographic pandas extensions"
 name = "geopandas"
 optional = false
@@ -267,6 +318,15 @@ fiona = ">=1.8"
 pandas = ">=0.24.0"
 pyproj = ">=2.2.0"
 shapely = ">=1.6"
+
+[[package]]
+category = "main"
+description = "Internationalized Domain Names in Applications (IDNA)"
+marker = "python_version >= \"3\""
+name = "idna"
+optional = false
+python-versions = ">=3.5"
+version = "3.2"
 
 [[package]]
 category = "main"
@@ -700,6 +760,31 @@ version = "1.21.2"
 
 [[package]]
 category = "main"
+description = "Retrieve, model, analyze, and visualize OpenStreetMap street networks and other spatial data"
+name = "osmnx"
+optional = false
+python-versions = ">=3.6"
+version = "1.1.1"
+
+[package.dependencies]
+Rtree = ">=0.9"
+Shapely = ">=1.7"
+geopandas = ">=0.9"
+matplotlib = ">=3.3"
+networkx = ">=2.5"
+numpy = ">=1.19"
+pandas = ">=1.1"
+pyproj = ">=2.6"
+requests = ">=2.25"
+
+[package.extras]
+entropy = ["scipy"]
+nearest_neighbor = ["scikit-learn", "scipy"]
+raster = ["gdal", "rasterio"]
+web_map = ["folium"]
+
+[[package]]
+category = "main"
 description = "Core utilities for Python packages"
 name = "packaging"
 optional = false
@@ -798,7 +883,7 @@ wcwidth = "*"
 [[package]]
 category = "main"
 description = "Run a subprocess in a pseudo terminal"
-marker = "sys_platform != \"win32\" or os_name != \"nt\" or python_version >= \"3.3\" and sys_platform != \"win32\""
+marker = "python_version >= \"3.3\" and sys_platform != \"win32\" or sys_platform != \"win32\" or os_name != \"nt\" or python_version >= \"3.3\" and sys_platform != \"win32\" and (python_version >= \"3.3\" and sys_platform != \"win32\" or sys_platform != \"win32\")"
 name = "ptyprocess"
 optional = false
 python-versions = "*"
@@ -945,6 +1030,38 @@ version = "1.10.0"
 
 [[package]]
 category = "main"
+description = "Python HTTP for Humans."
+name = "requests"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*"
+version = "2.26.0"
+
+[package.dependencies]
+certifi = ">=2017.4.17"
+urllib3 = ">=1.21.1,<1.27"
+
+[package.dependencies.charset-normalizer]
+python = ">=3"
+version = ">=2.0.0,<2.1.0"
+
+[package.dependencies.idna]
+python = ">=3"
+version = ">=2.5,<4"
+
+[package.extras]
+socks = ["PySocks (>=1.5.6,<1.5.7 || >1.5.7)", "win-inet-pton"]
+use_chardet_on_py3 = ["chardet (>=3.0.2,<5)"]
+
+[[package]]
+category = "main"
+description = "R-Tree spatial index for Python GIS"
+name = "rtree"
+optional = false
+python-versions = "*"
+version = "0.9.7"
+
+[[package]]
+category = "main"
 description = "SciPy: Scientific Library for Python"
 name = "scipy"
 optional = false
@@ -1052,6 +1169,19 @@ test = ["pytest"]
 
 [[package]]
 category = "main"
+description = "HTTP library with thread-safe connection pooling, file post, and more."
+name = "urllib3"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <4"
+version = "1.26.6"
+
+[package.extras]
+brotli = ["brotlipy (>=0.6.0)"]
+secure = ["pyOpenSSL (>=0.14)", "cryptography (>=1.3.4)", "idna (>=2.0.0)", "certifi", "ipaddress"]
+socks = ["PySocks (>=1.5.6,<1.5.7 || >1.5.7,<2.0)"]
+
+[[package]]
+category = "main"
 description = "Measures the displayed width of unicode strings in a terminal"
 name = "wcwidth"
 optional = false
@@ -1090,9 +1220,9 @@ version = "1.0.3"
 dev = ["pytest (>=4.6.2)", "black (>=19.3b0)"]
 
 [metadata]
-content-hash = "ec6975db206509e4f7a4b1712889af1a2c4e6badb00ca1ffabc7f576a8c2a794"
+content-hash = "53957a6017ce84f46746a8380f469265de3e1ca8f2ddd9ff33fcb0d8d4e31630"
 lock-version = "1.0"
-python-versions = ">=3.8, <3.10"
+python-versions = ">=3.8.5, <3.10"
 
 [metadata.files]
 appnope = [
@@ -1132,8 +1262,16 @@ bleach = [
     {file = "bleach-4.1.0-py2.py3-none-any.whl", hash = "sha256:4d2651ab93271d1129ac9cbc679f524565cc8a1b791909c4a51eac4446a15994"},
     {file = "bleach-4.1.0.tar.gz", hash = "sha256:0900d8b37eba61a802ee40ac0061f8c2b5dee29c1927dd1d233e075ebf5a71da"},
 ]
+branca = [
+    {file = "branca-0.4.2-py3-none-any.whl", hash = "sha256:62c2e777f074fc1830cd40ba9e650beb941861075980babafead8d97856b1a4b"},
+    {file = "branca-0.4.2.tar.gz", hash = "sha256:c111453617b17ab2bda60a4cd71787d6f2b59c85cdf71ab160a737606ac66c31"},
+]
 cartopy = [
     {file = "Cartopy-0.19.0.post1.tar.gz", hash = "sha256:4b8b4773a98ed7009fe17d9b6ec87ac3ac62b7d14634d7768c190eadc647d576"},
+]
+cerl = [
+    {file = "cerl-0.0.5-py3-none-any.whl", hash = "sha256:4efb63eaf1ff1e0903a6749a26f6725a3d04c0cd94e0aac81920a67ccc99e6dd"},
+    {file = "cerl-0.0.5.tar.gz", hash = "sha256:e41d2e92ea9bac621c2e1c0aceb86920aa065ebbcc0b3ba166a8a6806c489c8c"},
 ]
 certifi = [
     {file = "certifi-2021.5.30-py2.py3-none-any.whl", hash = "sha256:50b1e4f8446b06f41be7dd6338db18e0990601dce795c2b1686458aa7e8fa7d8"},
@@ -1185,6 +1323,10 @@ cffi = [
     {file = "cffi-1.14.6-cp39-cp39-win32.whl", hash = "sha256:eb9e2a346c5238a30a746893f23a9535e700f8192a68c07c0258e7ece6ff3728"},
     {file = "cffi-1.14.6-cp39-cp39-win_amd64.whl", hash = "sha256:818014c754cd3dba7229c0f5884396264d51ffb87ec86e927ef0be140bfdb0d2"},
     {file = "cffi-1.14.6.tar.gz", hash = "sha256:c9a875ce9d7fe32887784274dd533c57909b7b1dcadcc128a2ac21331a9765dd"},
+]
+charset-normalizer = [
+    {file = "charset-normalizer-2.0.6.tar.gz", hash = "sha256:5ec46d183433dcbd0ab716f2d7f29d8dee50505b3fdb40c6b985c7c4f5a3591f"},
+    {file = "charset_normalizer-2.0.6-py3-none-any.whl", hash = "sha256:5d209c0a931f215cee683b6445e2d77677e7e75e159f78def0db09d68fafcaa6"},
 ]
 click = [
     {file = "click-8.0.1-py3-none-any.whl", hash = "sha256:fba402a4a47334742d782209a7c79bc448911afe1149d07bdabdf480b3e2f4b6"},
@@ -1327,9 +1469,16 @@ fiona = [
     {file = "Fiona-1.8.20-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:e72e4a5b84ec410be531d4fe4c1a5c87c6c0e92d01116c145c0f1b33f81c8080"},
     {file = "Fiona-1.8.20.tar.gz", hash = "sha256:a70502d2857b82f749c09cb0dea3726787747933a2a1599b5ab787d74e3c143b"},
 ]
+folium = [
+    {file = "folium-0.12.1-py2.py3-none-any.whl", hash = "sha256:3d2c48dd6ffe5327975bbfd718468c4e81db9f2844c26e574f878adf4c08b644"},
+]
 geopandas = [
     {file = "geopandas-0.9.0-py2.py3-none-any.whl", hash = "sha256:79f6e557ba0dba76eec44f8351b1c6b42a17c38f5f08fef347e98fe4dae563c7"},
     {file = "geopandas-0.9.0.tar.gz", hash = "sha256:63972ab4dc44c4029f340600dcb83264eb8132dd22b104da0b654bef7f42630a"},
+]
+idna = [
+    {file = "idna-3.2-py3-none-any.whl", hash = "sha256:14475042e284991034cb48e06f6851428fb14c4dc953acd9be9a5e95c7b6dd7a"},
+    {file = "idna-3.2.tar.gz", hash = "sha256:467fbad99067910785144ce333826c71fb0e63a425657295239737f7ecd125f3"},
 ]
 ipykernel = [
     {file = "ipykernel-6.3.1-py3-none-any.whl", hash = "sha256:3d34530e031067f04e88b72715e92c27871368c15998692d665d57027ceb18d9"},
@@ -1561,6 +1710,10 @@ numpy = [
     {file = "numpy-1.21.2-pp37-pypy37_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:d96a6a7d74af56feb11e9a443150216578ea07b7450f7c05df40eec90af7f4a7"},
     {file = "numpy-1.21.2.zip", hash = "sha256:423216d8afc5923b15df86037c6053bf030d15cc9e3224206ef868c2d63dd6dc"},
 ]
+osmnx = [
+    {file = "osmnx-1.1.1-py2.py3-none-any.whl", hash = "sha256:90332c549760d4683f077ee8f5db7b2f8be5d942940beecbb765f4cc7ba0086a"},
+    {file = "osmnx-1.1.1.tar.gz", hash = "sha256:8ed9b69f2365a252b9cae78a1611ef7adb6b9800ca880aa49b3edcde6bcc5fbc"},
+]
 packaging = [
     {file = "packaging-21.0-py3-none-any.whl", hash = "sha256:c86254f9220d55e31cc94d69bade760f0847da8000def4dfe1c6b872fd14ff14"},
     {file = "packaging-21.0.tar.gz", hash = "sha256:7dc96269f53a4ccec5c0670940a4281106dd0bb343f47b7471f779df49c2fbe7"},
@@ -1791,6 +1944,39 @@ qtpy = [
     {file = "QtPy-1.10.0-py2.py3-none-any.whl", hash = "sha256:f683ce6cd825ba8248a798bf1dfa1a07aca387c88ae44fa5479537490aace7be"},
     {file = "QtPy-1.10.0.tar.gz", hash = "sha256:3d20f010caa3b2c04835d6a2f66f8873b041bdaf7a76085c2a0d7890cdd65ea9"},
 ]
+requests = [
+    {file = "requests-2.26.0-py2.py3-none-any.whl", hash = "sha256:6c1246513ecd5ecd4528a0906f910e8f0f9c6b8ec72030dc9fd154dc1a6efd24"},
+    {file = "requests-2.26.0.tar.gz", hash = "sha256:b8aa58f8cf793ffd8782d3d8cb19e66ef36f7aba4353eec859e74678b01b07a7"},
+]
+rtree = [
+    {file = "Rtree-0.9.7-cp27-cp27m-macosx_10_15_x86_64.whl", hash = "sha256:40a1b08fc4d39521d6dd801a4bc14ac5e3f45f4ed1e265d06d43ceb911764e3c"},
+    {file = "Rtree-0.9.7-cp27-cp27m-manylinux2010_i686.whl", hash = "sha256:bcc6109c5ed6ddcb2c45c0c4aa07e97a78b75496d254af58520fcfc995b4edd9"},
+    {file = "Rtree-0.9.7-cp27-cp27m-manylinux2010_x86_64.whl", hash = "sha256:0a2a57c25c936d66ef11df9a48d4a7172adec9daf3828b989f1d8084bbcdfebd"},
+    {file = "Rtree-0.9.7-cp27-cp27m-win_amd64.whl", hash = "sha256:c50e178620c052596013d9ea5f1c716f70d3ab3eb98fba67b1e3843b72523323"},
+    {file = "Rtree-0.9.7-cp27-cp27mu-manylinux2010_i686.whl", hash = "sha256:e5a1e352cb4473372d201b41fb92e71791a3e808a6533af002917e8904863ab5"},
+    {file = "Rtree-0.9.7-cp27-cp27mu-manylinux2010_x86_64.whl", hash = "sha256:fe06b208488c11a311570c9a37ec52116a41107ad265cf53b1ffdeaa09f2d37b"},
+    {file = "Rtree-0.9.7-cp35-cp35m-macosx_10_15_x86_64.whl", hash = "sha256:4d0c1c2f6ec0e34afbf487d960025fc4026e70a967bc0b41a9e9d159380539a2"},
+    {file = "Rtree-0.9.7-cp35-cp35m-manylinux2010_i686.whl", hash = "sha256:e017b7faa0b93a36ef70319616cea8ba800ad80f327a4ffb1bb4d7f47e8bb945"},
+    {file = "Rtree-0.9.7-cp35-cp35m-manylinux2010_x86_64.whl", hash = "sha256:ebe884fdf20d83b2eabd293ea28fbcbf84353eb0c6f6f3521fa66f1245b3d8e8"},
+    {file = "Rtree-0.9.7-cp35-cp35m-win_amd64.whl", hash = "sha256:de62f5b66dd90fba9559f019b9d8a3bbedf405ce51ae74ec9f4d47c248c71362"},
+    {file = "Rtree-0.9.7-cp36-cp36m-macosx_10_15_x86_64.whl", hash = "sha256:b651e12617634fc3ad3d68e5425fc566a704fa0ccaf0e0c4328ca6776d1949a1"},
+    {file = "Rtree-0.9.7-cp36-cp36m-manylinux2010_i686.whl", hash = "sha256:a3a7129f18f721db7e28fac796b3e0cc5708581473632afb430b6ca499b070f9"},
+    {file = "Rtree-0.9.7-cp36-cp36m-manylinux2010_x86_64.whl", hash = "sha256:22840737c2892d75de30115e4f392557bbc6382d6831f8588b9cb98ea82e5539"},
+    {file = "Rtree-0.9.7-cp36-cp36m-win_amd64.whl", hash = "sha256:275f5a4fbe9c74508ad2c0b334060ceec0b7fae061f7bc404d0d94617134f6a3"},
+    {file = "Rtree-0.9.7-cp37-cp37m-macosx_10_15_x86_64.whl", hash = "sha256:7a4ea00398cdda8dd0e96142ba10c44d48989e204945d0cded4d68e00859adcf"},
+    {file = "Rtree-0.9.7-cp37-cp37m-manylinux2010_i686.whl", hash = "sha256:bf465facf7e76e732ffef7a6db666478de05e1286407212ce2935410f32cdb64"},
+    {file = "Rtree-0.9.7-cp37-cp37m-manylinux2010_x86_64.whl", hash = "sha256:c34618947cfe2d8b4e52c0669e6c47e46ffa2413f7dae5c82dc63f9aee95b7a5"},
+    {file = "Rtree-0.9.7-cp37-cp37m-win_amd64.whl", hash = "sha256:b8c45987c9966b7341afbc70a7d0bd1a1b6361eff50379a7447512d169c1bd1e"},
+    {file = "Rtree-0.9.7-cp38-cp38-macosx_10_15_x86_64.whl", hash = "sha256:7f4c44b0e6840ce3202ab8c48c12edfd8b3104084d312a5718c16e65eddffdd7"},
+    {file = "Rtree-0.9.7-cp38-cp38-manylinux2010_i686.whl", hash = "sha256:64c89ec82b86d3e8ed91ee0cec83ad48aa1f2a633fbd83fe39ce1d14eb15454e"},
+    {file = "Rtree-0.9.7-cp38-cp38-manylinux2010_x86_64.whl", hash = "sha256:908775b905462f945b583f34cdbe77baad483243b22c2f671598f35327af2888"},
+    {file = "Rtree-0.9.7-cp38-cp38-win_amd64.whl", hash = "sha256:3fd5477a25fa0084305eea795999e51a94ca9b429089f852f231fe24bee4218d"},
+    {file = "Rtree-0.9.7-cp39-cp39-macosx_10_15_x86_64.whl", hash = "sha256:000dfc003cbebf5db2b8bc97cf3a1945da62388a46d00804804a375e6fcc3680"},
+    {file = "Rtree-0.9.7-cp39-cp39-manylinux2010_i686.whl", hash = "sha256:9e3a4ba7d58c598fae9c7fbbfe3a641a0a6fdb04720e7951048be43bbd97ebc5"},
+    {file = "Rtree-0.9.7-cp39-cp39-manylinux2010_x86_64.whl", hash = "sha256:a935e7a2d25d146b5129d127fc4eedded76e3a4feff989fcedc8e72cbcf2c555"},
+    {file = "Rtree-0.9.7-cp39-cp39-win_amd64.whl", hash = "sha256:824a7e4639665a32ffdfd28aa8b090a1dee60fa254f81317634362740be0b2d1"},
+    {file = "Rtree-0.9.7.tar.gz", hash = "sha256:be8772ca34699a9ad3fb4cfe2cfb6629854e453c10b3328039301bbfc128ca3e"},
+]
 scipy = [
     {file = "scipy-1.7.1-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:2a0eeaab01258e0870c4022a6cd329aef3b7c6c2b606bd7cf7bb2ba9820ae561"},
     {file = "scipy-1.7.1-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:3f52470e0548cdb74fb8ddf06773ffdcca7c97550f903b1c51312ec19243a7f7"},
@@ -1903,6 +2089,10 @@ tqdm = [
 traitlets = [
     {file = "traitlets-5.1.0-py3-none-any.whl", hash = "sha256:03f172516916220b58c9f19d7f854734136dd9528103d04e9bf139a92c9f54c4"},
     {file = "traitlets-5.1.0.tar.gz", hash = "sha256:bd382d7ea181fbbcce157c133db9a829ce06edffe097bcf3ab945b435452b46d"},
+]
+urllib3 = [
+    {file = "urllib3-1.26.6-py2.py3-none-any.whl", hash = "sha256:39fb8672126159acb139a7718dd10806104dec1e2f0f6c88aab05d17df10c8d4"},
+    {file = "urllib3-1.26.6.tar.gz", hash = "sha256:f57b4c16c62fa2760b7e3d97c35b255512fb6b59a259730f36ba32ce9f8e342f"},
 ]
 wcwidth = [
     {file = "wcwidth-0.2.5-py2.py3-none-any.whl", hash = "sha256:beb4802a9cebb9144e99086eff703a642a13d6a0052920003a230f3294bbe784"},
