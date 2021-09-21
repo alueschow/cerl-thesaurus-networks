@@ -20,6 +20,7 @@ bibliometa-vis = "^0.1.0"
 cerl = "^0.0.5"
 folium = "^0.12.1"
 osmnx = "^1.1.1"
+cartopy = "^0.20.0"
 
 [tool.poetry.dev-dependencies]
 
