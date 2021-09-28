@@ -1,0 +1,1 @@
+![](./img/goettingen_network.PNG)
